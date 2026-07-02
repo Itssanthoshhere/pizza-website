@@ -439,3 +439,39 @@ img {
 :is(.swiper-slide-active, .swiper-slide-duplicate-active) .popular-title {
   opacity: 1;
 }
+
+/* RECIPE */
+.recipe {
+  background-color: var(--container-color);
+}
+
+.recipe-container {
+  row-gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.recipe-image {
+  width: 60px;
+  filter: var(--shadow-small-img);
+}
+
+.recipe-name {
+  font-size: var(--normal-font-size);
+  margin-bottom: 0.25rem;
+}
+
+.recipe-desc {
+  font-size: var(--small-font-size);
+}
+
+.recipe-ingredient {
+  display: flex;
+  align-items: center;
+  column-gap: 0.75rem;
+}
+
+.recipe-img {
+  width: 320px;
+  justify-self: center;
+  filter: var(--shadow-big-img);
+}
