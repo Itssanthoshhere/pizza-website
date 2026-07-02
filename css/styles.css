@@ -536,3 +536,93 @@ img {
 .products-card:hover .products-img {
   transform: translateY(-0.5rem);
 }
+
+/* CONTACT */
+.contact-container {
+  position: relative;
+  background-color: var(--first-color-dark);
+  padding-top: 3.5rem;
+  border-radius: 3rem;
+  overflow: hidden;
+  row-gap: 3rem;
+}
+
+.contact-container .section-title,
+.contact-title,
+.contact-address {
+  color: var(--white-color);
+}
+
+.contact-info {
+  text-align: center;
+  row-gap: 2rem;
+}
+
+.contact-title {
+  margin-bottom: 1rem;
+}
+
+.contact-social {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.contact-social-link {
+  font-size: 1.5rem;
+  color: var(--first-color);
+  transition: transform 0.4s;
+}
+
+.contact-social-link:hover {
+  transform: translateY(-0.25rem);
+}
+
+.contact-address {
+  font-style: normal;
+}
+
+.contact-map {
+  color: var(--first-color);
+  display: inline;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-map span {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.contact-image {
+  justify-self: center;
+}
+
+.contact-img {
+  width: 300px;
+}
+
+.contact-sticker-1,
+.contact-sticker-2,
+.contact-sticker-3 {
+  width: 40px;
+  position: absolute;
+  opacity: 0.7;
+}
+
+.contact-sticker-1 {
+  top: 8rem;
+  left: 1.5rem;
+}
+
+.contact-sticker-2 {
+  right: 1.5rem;
+  bottom: 23rem;
+}
+
+.contact-sticker-3 {
+  left: 2rem;
+  bottom: 6rem;
+}
