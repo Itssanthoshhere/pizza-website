@@ -337,3 +337,39 @@ img {
 .button:hover {
   background-color: var(--first-color-alt);
 }
+
+/* ABOUT */
+.about {
+  background-color: var(--container-color);
+}
+
+.about-container {
+  row-gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.about-data {
+  position: relative;
+  text-align: center;
+}
+
+.about-data .section-title {
+  margin-bottom: 1rem;
+}
+
+.about-desc {
+  margin-bottom: 2rem;
+}
+
+.about-sticker {
+  width: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 2rem;
+}
+
+.about-img {
+  width: 320px;
+  justify-self: center;
+  filter: var(--shadow-big-img);
+}
