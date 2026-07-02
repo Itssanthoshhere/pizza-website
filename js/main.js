@@ -40,3 +40,11 @@ const shadowHeader = () => {
 };
 
 window.addEventListener("scroll", shadowHeader);
+
+// SWIPER POPULAR
+const swiperPopular = new Swiper(".popular-swiper", {
+  loop: true,
+  grabCursor: true,
+  slidesPerView: "auto",
+  centeredSlides: "auto",
+});
